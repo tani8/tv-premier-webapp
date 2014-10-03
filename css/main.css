@@ -1,21 +1,24 @@
 @import url(http://fonts.googleapis.com/css?family=Archivo+Narrow);
 body {
-   background-color: #5dace9;
+    background: linear-gradient(coral, floralwhite);
+   /*background-color: #5dace9;*/
 }
 h1, h2, h3 {
     font-family: 'Archivo Narrow', sans-serif;
 }
 .banner {
-    background-color: #0074cd;
+    background-color: slategrey;
+    /*background-color: #0074cd;*/
     color: #FFF;
     height: 100px;
 }
 .banner h1 {
+    font-family: "Bookman", Georgia, "Times New Roman", serif;
     font-size: 50px;
     line-height: 50px;
 }
 .main-frame {
-    background-color: #FFF;
+    background-color: floralwhite;
     padding: 10px;
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
@@ -60,7 +63,7 @@ h1, h2, h3 {
 }
 
 .episode-list .fulldate {
-    margin: 5px;
+    margin: 8px;
 }
 
 .episode-list li {
